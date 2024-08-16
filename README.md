@@ -51,13 +51,6 @@ This project focuses on creating a dynamic load balancing system with automatic 
 
 - **`server/server.py`**: Handles client requests on port 8000.
 
-## Performance
-
-The system dynamically adjusts the number of backend servers based on request load, as shown in the figure below. Initially, a single server handles the load, but additional servers are added as demand increases. During lower demand, the system scales down the number of servers.
-
-![Performance](eval.eps)  
-*Figure: Number of backend servers as requests are scaled up and down*
-
 ## Tools Used
 
 - **iptables**: For traffic management.
